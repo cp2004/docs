@@ -1,0 +1,13 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "OctoPrint-Docs-Markdown-Plugins"
+version = "0.1.0"
+description = ""
+authors = ["Charlie Powell <cp2004.github@gmail.com>"]
+packages = [
+    { include = "custom_markdown_plugins" }
+]
+
